@@ -3,5 +3,7 @@
 
 int main()
 {
-    std::cout << "ur mom";
+    std::fstream file;
+    file.open("nevim.nevim", std::ios_base::out);
+    file.close();
 }
